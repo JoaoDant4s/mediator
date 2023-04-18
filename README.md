@@ -1,4 +1,4 @@
-How to compile: 
+How to run: 
 
 run in the terminal: 
 ```
