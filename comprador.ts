@@ -1,7 +1,8 @@
+import { Colleague } from "./Interfaces/Colleague";
 import { Mediator } from "./mediator";
 
-export class Comprador {
-    private mediator: Mediator;
+export class Comprador implements Colleague{
+    mediator: Mediator;
     private nome: string;
     private endereco: string;
 
